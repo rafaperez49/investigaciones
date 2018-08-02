@@ -1,0 +1,25 @@
+import java.text.SimpleDateFormat
+
+def dateFormat = new SimpleDateFormat("yyyyMMddHHmm")
+def date = new Date()
+def timestamp = dateFormat.format(date).toString()
+
+pipeline{
+    
+    
+    agent any
+    
+    stages{
+        
+        stage('Configurando Repositorio'){
+        
+        steps{
+				withMaven(maven : 'apache-maven-3.5.3'){	
+					bat "mvn -Dtest=\"${APLICACION}\" test"
+				 }
+				
+			}
+            
+        }
+    }
+}
