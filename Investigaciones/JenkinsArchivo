@@ -10,8 +10,16 @@ pipeline{
     agent any
     
     stages{
+    
+    
+    stage('Act. Repositorio') {
+		 	steps{
+		 		git url: 'https://github.com/rafaperez49/investigaciones.git', credentialsId: 'rafaperez49', branch: 'master'
+			}
+		}
+    
         
-        stage('Configurando Repositorio'){
+        stage('Test'){
         
         steps{
 				withMaven(maven : 'apache-maven-3.5.3'){	
