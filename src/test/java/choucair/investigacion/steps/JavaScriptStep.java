@@ -1,12 +1,10 @@
 package choucair.investigacion.steps;
 
+import static org.hamcrest.Matchers.containsString;
 import static org.junit.Assert.assertThat;
-
-import org.apache.tools.ant.filters.TokenFilter.ContainsString;
 
 import choucair.investigacion.pages.JavaScriptPage;
 import net.thucydides.core.annotations.Step;
-import static org.hamcrest.Matchers.containsString;
 
 public class JavaScriptStep {
 	

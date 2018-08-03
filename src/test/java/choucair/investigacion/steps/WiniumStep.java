@@ -1,7 +1,5 @@
 package choucair.investigacion.steps;
 
-import java.awt.AWTException;
-
 import choucair.investigacion.pages.WiniumPage;
 import net.thucydides.core.annotations.Step;
 

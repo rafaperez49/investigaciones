@@ -1,13 +1,8 @@
 package choucair.investigacion.definitions;
 
-import org.apache.poi.ss.usermodel.CreationHelper;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
 import choucair.investigacion.steps.JavaScriptStep;
 import choucair.investigacion.steps.TablaStep;
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.annotations.Steps;
 

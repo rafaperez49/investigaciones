@@ -1,11 +1,5 @@
 package choucair.investigacion.pages;
 
-import java.awt.Dimension;
-import java.awt.image.BufferedImage;
-
-import org.sikuli.script.Key;
-import org.sikuli.script.Screen;
-
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;

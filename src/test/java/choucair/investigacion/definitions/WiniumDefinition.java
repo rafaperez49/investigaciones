@@ -1,10 +1,7 @@
 package choucair.investigacion.definitions;
 
-import java.awt.AWTException;
-
 import choucair.investigacion.steps.WiniumStep;
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.annotations.Steps;
 
